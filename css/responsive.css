@@ -560,6 +560,19 @@ Copyright © 2020-21
 	}
 }
 @media (max-width: 1300px) {
+	.carousel-item img {
+		margin: 0;
+	}
+	.img-fluid {
+		width: 100%;
+	}
+	.bussi_banner_cntnt h1 {
+		font-size: 30px;
+		line-height: 40px;
+	}
+	.paddingtop {
+		padding-top: 30px;
+	}
 	.bussi_banner_wrapper .container-fluid {
 		padding-top: 30px;
 	}
@@ -631,6 +644,9 @@ Copyright © 2020-21
 	}
 }
 @media (max-width: 1200px) {
+	.paddingtop {
+		padding-top: 50px;
+	}
 
 	.bussi_logo_wrapper img {
 		width: 250px;
@@ -1584,6 +1600,13 @@ Copyright © 2020-21
 	}
 }
 @media (max-width: 991px) {
+	.paddingtop {
+		padding-top: 25px;
+	}
+
+	.background-banner img {
+		
+	}
 	.container-fluid {
 		padding-left: 50px;
 		padding-right: 50px;
@@ -3065,9 +3088,9 @@ Copyright © 2020-21
 	}
 }
 @media (max-width: 767px) {
-	.background-banner img {
+	/* .background-banner img {
 		content: url('../images/omedi/banner_mobile.svg')
-	}
+	} */
 
 	.bussi_banner_wrapper .container-fluid {
         padding-left: 50px;
@@ -3555,6 +3578,10 @@ Copyright © 2020-21
 	}
 }
 @media (max-width: 580px) {
+	.innerku .d-flex p {
+		min-width: 100px;
+		font-size: 12px;
+	}
 	.background_demo .button_hubungi_kami{
 		padding-right: 0px;
 		align-items: center;
@@ -3747,9 +3774,7 @@ Copyright © 2020-21
 	.paddingtop5 {
 		margin-top: 70px;
 	}
-	.background-banner img {
-		content: url('../images/omedi/banner_mobile.svg')
-	}
+
 	.bussi_banner_wrapper {
         padding-top: 0px;
     }

@@ -7157,10 +7157,18 @@ button:focus {
 }
 
 .background-banner {
-	position: absolute;
+	/* position: absolute; */
 	width: 100%;
 
 
+}
+
+.innerku .d-flex p {
+	min-width: 150px;
+}
+
+.paddingtop {
+	padding-top: 150px;
 }
 
 .inputText {
